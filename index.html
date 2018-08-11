@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="winnow">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <script src="/node_modules/angular/angular.min.js"></script>
+    <script src="/node_modules/angular-animate/angular-animate.min.js"></script>
+    <script src="/node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+    <script src="views/main.controller.js"></script>
+    <script src="views/summary1/summary1.controller.js"></script>
+    <script src="views/summary2/summary2.controller.js"></script>
+	</head>
+	<body ng-controller="appCtrl">
+      <div ui-view></div>
+	</body>
+</html>
